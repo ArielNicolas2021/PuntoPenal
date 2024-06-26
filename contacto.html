@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <title>Contacto | Punto Penal</title>
+
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav>
+            <div class="navbar-top">
+                <a href="index.html"><img src="assets/images/logo-puntopenal.png" alt="logo punto penal" width="50" draggable="false"></a>
+                <i class="bx bx-menu bx-lg" id="navbarBtn"></i>
+            </div>
+            <ul class="navbar" id="navbar">
+                <li class="navbar-item"><a href="index.html">INICIO</a></li>
+                <li class="navbar-item"><a href="alquiler.html">ALQUILER</a></li>
+                <li class="navbar-item"><a href="servicios.html">SERVICIOS</a></li>
+                <li class="navbar-item"><a href="contacto.html" class="active-nav">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <!-- /Navbar -->
+
+        <!-- Hero -->
+        <section class="hero">
+            <h1 class="hero-title">Punto Penal FC</h1>
+            <p class="hero-text">Dejanos tus datos para reservar correctamente tu turno.</p>
+            <i class='bx bx-down-arrow-alt flecha' id="arrow"></i>
+        </section>
+        <!-- /Hero -->
+    </header>
+    <main>
+        <!-- Contacto -->
+        <section class="contacto">
+            <h2 class="contacto-title">Contacto</h2>
+            <p class="contacto-text">Dejá tus datos para reservar correctamente tu turno. Podés hablarnos al WhatsApp para confirmar o modificar el turno.</p>
+            <span class="contacto-tel">+54 9 11 1234-5678</span>
+            <span class="contacto-email">puntopenalrrhh@gmail.com</span>
+            <form class="contacto-form" id="form">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Nombre">
+
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" placeholder="Apellido">
+
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" placeholder="Correo">
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" placeholder="Telefono">
+
+                <label for="consulta">Consulta</label>
+                <input type="text" id="consulta" placeholder="Tipo de consulta">
+
+                <label for="consultamsj">Consulta</label>
+                <textarea id="consultamsj" placeholder="Consulta"></textarea>
+
+                <button type="submit" class="form-btn">Enviar</button>
+            </form>
+            <div class="message-form">
+                <div class="message-content" id="messageContent">
+                    <i class="bx bx-x" id="closeMessage"></i>
+                    <p class="message-text" id="message"></p>
+                </div>
+            </div>
+        </section>
+        <!-- /Contacto -->
+    </main>
+    <footer>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-logo">
+                <a href="index.html"><img src="assets/images/logo-puntopenal.png" alt="logo punto penal" width="50"></a>
+            </div>
+            <ul class="footbar">
+                <li class="footbar-item"><a href="index.html">INICIO</a></li>
+                <li class="footbar-item"><a href="alquiler.html">ALQUILER</a></li>
+                <li class="footbar-item"><a href="servicios.html">SERVICIOS</a></li>
+                <li class="footbar-item"><a href="contacto.html" class="active-nav">CONTACTO</a></li>
+            </ul>
+            <div class="redes">
+                <a href="https://www.facebook.com/" target="_blank" class="redes-item"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.twitter.com/" target="_blank" class="redes-item"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" class="redes-item"><i class="bx bxl-instagram"></i></a>
+            </div>
+        </div>
+        <!-- /Footer -->
+
+        <!-- Copy -->
+        <div class="copy">
+            <p class="copy-text">En el corazón de <b>Monte Grande</b>, somos mucho más que un simple espacio deportivo.</p>
+            <p class="copy-text"><b>Copyright 2024 - @arielnico.dev</b></p>
+        </div>
+        <!-- /Copy -->
+    </footer>
+
+    <script src="assets/js/contacto.js"></script>
+</body>
+</html>
