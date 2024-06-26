@@ -10,4 +10,4 @@ Este repositorio es para el Grupo 4 de Codo a Codo.
 - Nicole Molenberg
 
 # Pagina para visitar el proyecto:
-https://arielnicolas2021.github.io/Punto-Penal/
+https://arielnicolas2021.github.io/PuntoPenal/
