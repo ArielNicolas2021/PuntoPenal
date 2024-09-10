@@ -14,8 +14,8 @@ Punto Penal es un sitio web de una cancha de fútbol. La idea es poder hacer res
 
 ## Imágenes
 
-![](./assets/images/puntopentalmobile.png)
-![](./assets/images/puntopenaldesktop.png)
+![](./assets/images/puntopenalmobile.jpeg)
+![](./assets/images/puntopenaldesktop.jpeg)
 
 ## Link
 
